@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    padding: 9px 104px;
+    box-shadow: 5px 0 5px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    gap:40px;
+    font-size: 16px;
+}
+
+.nav-logo{
+    margin-right: 15px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+.Call-to-action{
+    padding: 16px;
+    background-color: #004E5C;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
