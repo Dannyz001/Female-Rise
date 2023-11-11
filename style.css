@@ -3,14 +3,21 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.center{
+    max-width: 1440px;
+}
 .nav-bar{
     display: flex;
     flex-direction: row;
     padding: 9px 104px;
-    box-shadow: 5px 0 5px;
+    box-shadow: 0px 1px 5px;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 1px;
+    z-index: 1;
     
 }
 .nav-list{
@@ -31,10 +38,66 @@
     color: black;
 }
 
-.Call-to-action{
+.spacer{
+    margin-bottom: 24px;
+}
+
+.call-to-action{
+    display: flex;
     padding: 16px;
     background-color: #004E5C;
     color: #ffffff;
     border-radius: 4px;
+    border: 0;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
 }
+.main-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-left: 74px;
+    z-index: -1;
+}
+.desc-container{
+    width: 46%;
+}
+.color-bars{
+    width: 72%;
+}
+.color-bars img {
+    width: 100%;
+}
+.desc-heading{
+    font-size: 52px;
+    font-weight:900;
+}
+.color-dot{
+    color: #FF715B;
+}
+.desc-paragraph{
+    color: #505050;
+    font-size: 20px;
+    line-height: 24.2px;
+}
+.extra-space{
+    padding-inline: 20px;
+}
+.img-container{
+    width: 53%;
+}
+.img-container img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
 
