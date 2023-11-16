@@ -366,7 +366,84 @@ body{
     font-size: 48px;
     width: 45%;
 }
+.outro-cont{
+    background-color: #ECB302;
+    padding-block: 10px;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.outro{
+    max-width: 482px;
 
 
+}
+.outro h2{
+    font-size: 48px;
+    color: #412C95;
+    font-weight: 300;
+}
+.outro p {
+    font-size: 18px;
+    color: white;
+    padding-block: 20px;
+}
+.outro h6{
+    display: inline;
+    background-color: black;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+footer{
+    padding: 50px;
+    gap: 50px;
+    background-color: #6A55EA;
+    color: #ffffff;
+}
+.foot-content{
+  justify-content: space-between;
+}
+footer h2{
+    font-size: 64px;
+    font-weight: 200;
+    margin-bottom: 32px;
+
+}
+.foot-1{
+    max-width: 567px;
+}
+.form-sec{
+    display: flex;
+    background-color: white;
+    padding: 8px;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-bottom: 50px;
+
+}
+.form-sec input{
+    border: none;
+    outline:none;
+    font-size: 14px;
+}
+.form-sec button {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: #6A55EA;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.foot-note{
+    justify-content: space-between;
+}
+.foot-links{
+    display: block;
+}
 
 
