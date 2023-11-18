@@ -87,7 +87,6 @@ body{
 .img-container{
     display: flex;
     width: 53%;
-    background-color: red;
     
 }
 .img-container img{
@@ -100,26 +99,32 @@ body{
     padding: 119.17px 236.85px;
     color: white;
     text-align: center;
+    z-index: -2;
+    
 }
 .position-bg1{
     position: absolute;
     left: 20px;
     top: 30px;
+    z-index: -1;
 }
 .position-bg2{
     position: absolute;
     left: 25px;
     top: 15px;
+    z-index: -1;
 }
 .position-bg3 {
     position: absolute;
     right: 15px;
     top: 10px;
-    z-index: 1;
+    z-index: -1;
+    
     
 }
 .main-section h4{
     margin-bottom: 10px;
+    z-index: 2;
 }
 .main-section h2 {
     margin-bottom: 48px;
@@ -148,6 +153,9 @@ body{
         align-content: flex-end;
 
 }
+.array img{
+    width: 100%;
+}
 
 .mini-head{
     color: #004E5C;
@@ -155,7 +163,7 @@ body{
     margin-bottom: 10px;
 }
 
-.regular-head{
+.regular-head{ 
     font-size: 48px;
     font-weight: 100;
     margin-bottom: 8px;
@@ -233,6 +241,7 @@ body{
 
 
 }
+
 .section-flex.line{
     justify-content: space-between;
     margin: 20px;
@@ -260,6 +269,9 @@ body{
     max-width: 1080px;
     justify-items: center;
     margin: auto;
+}
+.mobile{
+    display: none;
 }
 .space{
     justify-content: space-between;
@@ -396,6 +408,9 @@ body{
     padding: 8px 10px;
     border-radius: 5px;
 }
+.outro-mage img{
+    width: 100%;
+}
 footer{
     padding: 50px;
     gap: 50px;
@@ -404,6 +419,9 @@ footer{
 }
 .foot-content{
   justify-content: space-between;
+}
+.foot-image img{
+    width: 100%;
 }
 footer h2{
     font-size: 64px;
