@@ -149,12 +149,8 @@ body{
 }
 .array{
     padding: 80px 128px;
-        gap: 50px;
-        align-content: flex-end;
+    gap: 50px;
 
-}
-.array img{
-    width: 100%;
 }
 
 .mini-head{
