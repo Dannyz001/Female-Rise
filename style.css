@@ -269,6 +269,9 @@ body{
 .mobile{
     display: none;
 }
+.isolated.mobile {
+    display: none;
+}
 .space{
     justify-content: space-between;
     margin-top: 20px;
