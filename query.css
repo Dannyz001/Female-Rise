@@ -1,8 +1,13 @@
 @media only screen and (max-width:800px){
     .nav-bar{
-        width: 100%;
-        padding: 7px 23px;
+        padding: 7px 15px;
+        
+        
+
     }
+        .hamburger{
+            display: block;
+        }
     .nav-items, .c2a{
         display: none;
     }

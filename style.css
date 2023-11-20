@@ -14,7 +14,7 @@ body{
     flex-direction: row;
     padding: 9px 104px;
     box-shadow: 0px 1px 5px;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
     margin-bottom: 1px;
     z-index: 1;
@@ -52,6 +52,9 @@ body{
     align-items: center;
     gap: 8px;
     font-size: 16px;
+}
+.hamburger {
+    display: none;
 }
 .main-container{
     display: flex;
