@@ -115,6 +115,18 @@
     .main-section{
         padding: 70px;
     }
+        .desc-heading {
+            font-size: 30px;
+            font-Weight: 800;
+            Line-height: 30px;
+            letter-spacing: 0.5px;
+        }
+        .desc-paragraph {
+            font-size: 15px;
+            letter-spacing: 0.5;
+    
+    
+        }
     .split-section{
         gap: 50px
     }
@@ -186,6 +198,9 @@
         Line-height: 46px;
         letter-spacing: 0.8px;
         text-align: Center;
+        max-width: 700px;
+        margin: auto;
+
     }
 
     .desc-paragraph {
@@ -194,7 +209,7 @@
         Line-height: 24.2px;
         text-align: Center;
         color: #505050;
-        max-width: 355px;
+        max-width: 500px;
         margin: auto;
         padding-bottom: 16px;
 
@@ -367,14 +382,20 @@
     }
     .word-grid{
         padding-inline: 15px;
+        margin: auto;
     }
     .w-grid {
         width: 49%;
         background-color: #F5F5F5;
         padding: 58px 22px;
         margin-bottom: 10px;
+        justify-items: left;
     }
-
+        .w-grid h6 {
+            display: flex;
+            max-width: 100%;
+            margin: 0;
+        }
     .w-grid p {
         max-width: 100%;
     }
@@ -473,5 +494,8 @@
 }
 .w-grid {
     width: 100%;
+}
+..desc-paragraph{
+    max-width: 355px;
 }
 }
