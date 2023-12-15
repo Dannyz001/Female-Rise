@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
 }
 .center{
     max-width: 1440px;
@@ -14,7 +15,7 @@ body{
     display: flex;
     flex-direction: row;
     padding: 9px 104px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #C1C1C1;
     justify-content: space-between; 
     align-items: center;
     z-index: 1;
@@ -82,9 +83,9 @@ body{
 .desc-paragraph{
     color: #505050;
     font-size: 16px;
-    line-height: 24.2px;
-    max-width: 557px;
-    font-weight: 50;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.25%;
 }
 .extra-space{
     padding-inline: 20px;
@@ -99,12 +100,16 @@ body{
     
 }
 .main-section{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
     position: relative;
     background-color: #412C95;
     padding: 119.17px;
     color: white;
     text-align: center;
     z-index: -2;
+   
     
 }
 .position-bg1{
@@ -130,16 +135,18 @@ body{
 .main-section h4{
     margin-bottom: 10px;
     z-index: 2;
-    font-weight: 100;
+    font-weight: 300;
 }
 .main-section h2 {
     margin-bottom: 48px;
     font-size: 42px;
-    font-weight: 100;
+    font-weight: 200;
 }
 .split-section{
     display: flex;
     gap: 91px;
+    margin: auto;
+
 }
 .split-icon{
     display: block;
@@ -150,8 +157,8 @@ body{
 .split-parag{
     display: block;
     z-index: 2;
-    font-size: 20px;
-    font-weight: 100;
+    font-size: 17px;
+    font-weight: 200;
     line-height: 1.4;
 }
 .split-one{
@@ -172,9 +179,12 @@ body{
     
 }
 .array{
-    padding: 80px 128px;
-    gap: 50px;
+    margin: 80px 128px;
+    justify-content:space-between;
 
+}
+.array-description{
+    max-width: 500px;
 }
 
 .mini-head{
@@ -187,15 +197,18 @@ body{
 
 .regular-head{ 
     font-size: 48px;
-    font-weight: 400;
     margin-bottom: 8px;
-    Line-height: 57.6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
 }
 .desc-paragraph.mini{
-    font-size: 16px;
+    font-size: 15px;
     margin-bottom: 32px;
     color: #505050;
-    Line-height: 24.8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
 
 }
 .para-flex{
@@ -222,7 +235,7 @@ body{
     width: 100%;
 }
 .desc-paragraph.mini.size{
-    max-width: 390px;
+    max-width: 391px;
 }
 .position{
     justify-content: space-between;
@@ -249,11 +262,14 @@ body{
     bottom: 60px;
     left: 40px;
 }
-.floating-box p{
-    font-Weight:500;
-    font-Size: 16px; 
-    Line-height:24px;
+.floating-box p{ 
     max-width: 220px;
+    color:  #0D0E0E;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.5;
 }
 .floated{
     display: flex;
@@ -322,10 +338,10 @@ body{
 .gallery-cont{
     display: flex;
     flex-wrap: wrap;
-    gap:20px;
-    
-    
-    
+    gap:20px;    
+}
+.balance p{
+    margin-top: 10px;
 }
 .gallery{
     background-color: #F2EEE5;
@@ -412,12 +428,9 @@ body{
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-.section-unlock{
-    width: 60%;
-}
+
 .section-unlock h4{
     color: #ffffff;
-    font-family: Helvetica Now Display;
     font-size: 32px;
     font-weight: 400;
     margin-block: 40px;
@@ -444,7 +457,6 @@ body{
     gap: 16px;
 }
 .w-grid h6{
-    font-family: Inter;
     font-size: 18px;
     padding-bottom: 15px;
     font-style: normal;
@@ -452,13 +464,13 @@ body{
     line-height: 125%;
     letter-spacing: -0.5px;
     color: #0A070D;
+    max-width: 227px;
     
 }
 .w-grid p {
     display: flex;
     font-size: 16px;
     color: #0A070D;
-    font-family: Inter;
     font-style: normal;
     font-weight: 400;
     line-height: 140.625%;
@@ -466,26 +478,30 @@ body{
     align-items: center;
     max-width: 260px;
 }
+.short{
+    margin-top: 20px;
+}
 .isolated{
     display: flex;
     align-items: end;
     color: #ffffff;
     padding-bottom: 60px;
-    font-size: 48px;
-    max-width: 420px;
-    font-family: Helvetica Now Display;
+    font-size: 40px;
+    max-width: 460px;
     font-size: 48px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 100;
     line-height: 58.08px;
+    letter-spacing: -0.5px;
 }
+
+
 .outro-cont{
     background-color: #ECB302;
     padding-block: 10px;
     align-items: center;
     margin: auto;
     justify-content: center;
-    margin-bottom: 40px;
 }
 .outro{
     max-width: 482px;
@@ -494,7 +510,6 @@ body{
 }
 .outro h2{
     color: #412C95;
-    font-family: Helvetica Now Display;
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
@@ -504,7 +519,6 @@ body{
     font-size: 18px;
     padding-block: 20px;
     color: #FFF;
-    font-family: Inter;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -515,7 +529,6 @@ body{
     color: white;
     padding: 8px 10px;
     border-radius: 5px;
-    font-family: Helvetica Now Display;
     font-size: 16.022px;
     font-style: normal;
     font-weight: 500;
@@ -541,7 +554,6 @@ footer h2{
     font-size: 64px;
     font-weight: 200;
     margin-bottom: 32px;
-    font-family: Helvetica Now Display;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
@@ -579,24 +591,27 @@ footer h2{
 .foot-note{
     justify-content: space-between;
     color: #FFF;
-    font-family: Poppins;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
     letter-spacing: 1px;
-    align-items: baseline;
-    text-align: end;
 }
 .foot-links{
     display: flex;
-    gap: 12%;
+    gap: 30px;
     padding-top: 10px;
+    text-align: center;
     
 }
 .foot-links a{
     text-decoration: none;
     color: #FFF;
+    margin: auto;
+}
+.sign-out{
+
+    margin-top: 30px;
 }
 
 
