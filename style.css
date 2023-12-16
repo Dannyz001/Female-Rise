@@ -21,6 +21,13 @@ body{
     z-index: 1;
     
 }
+.link-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
 .nav-list{
     display: flex;
     flex-direction: row;
@@ -30,8 +37,16 @@ body{
     font-size: 16px;
 }
 
+.nav-items a:hover{
+    color: #004E5C;
+    font-size: 17px;
+    
+}
+
 .nav-logo{
-    margin-right: 15px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
 }
 
 .nav-link{

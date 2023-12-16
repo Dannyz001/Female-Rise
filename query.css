@@ -88,11 +88,6 @@
         .hamburger {
             display: block;
         }
-    
-        .nav-items,
-        .c2a {
-            display: none;
-        }
         .array-description {
                 display: flex;
                 flex-direction: column;
@@ -112,6 +107,9 @@
         }
 }
 @media only screen and (max-width:970px) {
+    .nav-list{
+        gap: 25px;
+    }
     .main-section{
         padding: 70px;
     }
@@ -155,7 +153,7 @@
 }
 @media only screen and (max-width:800px) {
     .nav-bar {
-        padding: 7px 15px;
+        padding: 7px 20px;
 
 
 
@@ -163,11 +161,57 @@
 
     .hamburger {
         display: block;
+        margin-left: 20px ;
+    }
+    .hamburger div{
+        width: 30px;
+        height: 2px;
+        margin-block: 6px;
+        background-color: black;
     }
 
-    .nav-items,
-    .c2a {
-        display: none;
+    .nav-list
+    {
+        flex-direction: column;
+        width: 100%;
+        font-size: 25px;
+    } 
+    .link-container{
+        flex-direction: column;
+        position: fixed;
+        margin: 0;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 70px;
+        left: 0;
+        top: -300%;
+        width: 100%;
+        padding: 30px;
+        transition: 0.3s slider;
+    }
+    @keyframes slider {
+        0% {
+            top: -300%;
+            opacity: 0;
+        }
+        50% {
+            top: 0%;
+            opacity: 0.1;
+        }
+        70% {
+            top: 20px;
+            opacity: 0.5;
+        }
+        100% {
+            top: 70px;
+            opacity: 0.7;
+        }
+        
+    }
+    .link-container.active{
+        top: 70px;
+        background-color: #F5F5F5;
+        opacity: 0.7px;
     }
 
     .main-container {
