@@ -154,9 +154,6 @@
 @media only screen and (max-width:800px) {
     .nav-bar {
         padding: 7px 20px;
-
-
-
     }
 
     .hamburger {
@@ -539,7 +536,12 @@
 .w-grid {
     width: 100%;
 }
-..desc-paragraph{
+.desc-paragraph{
     max-width: 355px;
+}
+}
+@media only screen and (max-width:550px) {
+.desc-heading {
+    font-size: 28px;
 }
 }
