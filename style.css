@@ -68,6 +68,14 @@ body{
     align-items: center;
     gap: 8px;
     font-size: 16px;
+    
+}
+.nav-bar a{
+    text-decoration: none;
+}
+
+.c2a-anchor:hover {
+    transform: scale(0.9);
 }
 .hamburger {
     display: none;
